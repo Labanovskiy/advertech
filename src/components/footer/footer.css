@@ -1,0 +1,136 @@
+.footer {
+    background-color: #F2F4F7;
+    width: 1920px;
+    position: relative;
+}
+.footer::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url('./../../img/Footer/wave.svg');
+    background-repeat: no-repeat;
+    top: 88px;
+    right: 320px;
+    width: 129px;
+    height: 129px;
+}
+.footer_name {
+    padding-left: 334px;
+    padding-top: 91px;
+
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #667085;
+}
+.footer__title {
+    padding-left: 334px;
+    padding-top: 15px;
+    padding-bottom: 22px;
+
+    font-family: Chivo;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}
+.footer__desc {
+    padding-left: 334px;
+    padding-bottom: 60px;
+
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    color: #667085;
+}
+.contacts {
+    display: flex;
+}
+.adress {
+    padding-left: 334px;
+}
+.adress__adress {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding-top: 13px;
+    padding-bottom: 25px;
+
+
+    font-family: Chivo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.adress__house {
+    width: 259px;
+    height: 75px;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #667085;
+}
+.adress__phone {
+    text-decoration: underline;
+    color: #667085;
+    height: 28px;
+    padding-bottom: 3px;
+}
+.adress__phone a {
+    color: #667085;
+}
+.adress__email {
+    text-decoration: underline;
+    color: #667085;
+}
+.adress__email a {
+    color: #667085;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 98px;
+}
+.form__name, .form__mail {
+    background-color: white;
+    padding: 21px 716px 20px 30px;
+    margin-bottom: 24px;
+}
+.form__massage {
+    background-color: white;
+    padding: 21px 713px 110px 31px;
+    margin-bottom: 30px;
+}
+.submit {
+    padding-left: 2px;
+    display: flex;
+    gap: 65px;
+    align-items: center;
+    padding-bottom: 86px;
+}
+.submit__btn {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    color: #fff;
+    background-color: black;
+    padding: 22px 28px 22px 32px;
+    border-radius: 50px;
+}
+.submit span {
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #667085;
+}

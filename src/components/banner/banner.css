@@ -1,0 +1,97 @@
+.banner {
+    width: 1920px;
+    height: 805px;
+    background-image: url('./../../img/Header/Background.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom 0px left 50px;
+    position: relative;
+}
+.banner::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -76px;
+    left: 50px;
+    background-image: url('./../../img/Header/pattern.svg');
+    background-repeat: no-repeat;
+    width: 228px;
+    height: 228px;
+}
+.banner__content {
+    display: flex;
+    gap: 109px;
+    
+    padding-top: 45px;
+    padding-left: 243px;
+}
+.banner__text {
+    padding-top: 115px;
+    padding-left: 52px;
+}
+.banner__title {
+    width: 702px;
+    height: 304px;
+    padding-bottom: 7px;
+
+    font-family: Chivo;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: -0.4px;
+}
+
+.banner__title span {
+    color: #006D77;
+}
+.banner__desc {
+    width: 610px;
+    height: 116px;
+    padding-top: 5px;
+    
+    font-family: Noto Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    color: #667085;
+}
+.banner__btn {
+    display: flex;
+    padding-top: 5px;
+}
+.banner__btn--1 {
+    padding: 22px 28px 22px 32px;
+    background-color: #101828;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #FFF;
+    
+    font-family: Chivo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.banner__btn--2 {
+    padding: 22px 28px 22px 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #101828;
+
+    font-family: Chivo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+.banner__btn--2:hover, .banner__btn--1:hover {
+    background-color: #667085;
+    border-radius: 50px;
+}
+
